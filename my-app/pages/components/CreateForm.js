@@ -6,11 +6,11 @@ export default function CreateForm({ onCreate }) {
 
             <label>Location</label>
             <input name="location" type="text" className="w-10/12 my-5" />
-            <br/>
+            <br />
             <label> Minimum Customers Per Hour |</label>
             <label> Maximum Customers Per Hour |</label>
             <label> Average Cookies Per Hour </label>
-            <br/>
+            <br />
             <input name="min" type="text" />
             <input name="max" type="text" />
             <input name="avg" type="text" />
